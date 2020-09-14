@@ -26,9 +26,9 @@ public class MyMain {
     }
     public static void main(String[] args) {
         // You may want to keep these lines of code to test that your methods work
-        System.out.println(median(medi1, medi2, medi3)); // should be 2
-        System.out.println(magnitude(mgi1, mgi2)); // should be -7
-        System.out.println(pythagoras(p1, p2)); // should be 5.0
+        // System.out.println(median(medi1, medi2, medi3)); // should be 2
+        // System.out.println(magnitude(mgi1, mgi2)); // should be -7
+        // System.out.println(pythagoras(p1, p2)); // should be 5.0
 
         String x = ("median");
         String y = ("magnitude");
@@ -42,7 +42,7 @@ public class MyMain {
         boolean e = y.equals(mthd);
         boolean f = z.equals(mthd);
 
-         if (d = true){
+         if (d == true){
             Scanner med1 = new Scanner(System.in);
             System.out.print("Integer: ");
             String a = med1.next();
@@ -62,7 +62,7 @@ public class MyMain {
 
 
         }
-         if (e = true){
+         if (e == true){
             Scanner mag1 = new Scanner(System.in);
             System.out.print("Integer: ");
             String mg1 = mag1.next();
@@ -75,7 +75,7 @@ public class MyMain {
             mag2.close();
             
         }
-        if (f = true){
+        if (f == true){
              Scanner py1 = new Scanner(System.in);
             System.out.print("Integer: ");
             String p1 = py1.next();
